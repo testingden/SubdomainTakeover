@@ -1,0 +1,3 @@
+https://github.com/EdOverflow/can-i-take-over-xyz
+####S3 Bucket####
+http -b GET <subdomain> | grep -E -q '<Code>NoSuchBucket</Code>|<li>Code: NoSuchBucket</li>' && echo "******************************Subdomain takeover may be possible**************************" || echo "*****Subdomain takeover is not possible"
